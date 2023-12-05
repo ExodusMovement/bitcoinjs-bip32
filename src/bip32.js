@@ -3,11 +3,9 @@ Object.defineProperty(exports, "__esModule", { value: true });
 exports.BIP32Factory = void 0;
 const crypto = require("./crypto");
 const testecc_1 = require("./testecc");
-const base_1 = require("@scure/base");
-const sha256_1 = require("@noble/hashes/sha256");
+const _bs58check = require("bs58check");
 const typeforce = require('typeforce');
 const wif = require('wif');
-const _bs58check = (0, base_1.base58check)(sha256_1.sha256);
 const bs58check = {
     encode: (data) => _bs58check.encode(Uint8Array.from(data)),
     decode: (str) => Buffer.from(_bs58check.decode(str)),
