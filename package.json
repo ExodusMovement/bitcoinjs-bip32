@@ -1,5 +1,5 @@
 {
-  "name": "bip32",
+  "name": "@exodus/bitcoinjs-bip32",
   "version": "4.0.0",
   "description": "A BIP32 compatible library",
   "keywords": [
@@ -30,7 +30,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/bitcoinjs/bip32.git"
+    "url": "git+https://github.com/ExodusMovement/bitcoinjs-bip32.git"
   },
   "files": [
     "src",
@@ -54,6 +54,6 @@
   "author": "Daniel Cousens",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/bitcoinjs/bip32/issues"
+    "url": "https://github.com/ExodusMovement/bitcoinjs-bip32/issues"
   }
 }
